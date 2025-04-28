@@ -1,6 +1,6 @@
 # Nairobi Errands Express 🚀
 
-![Project Screenshot](/public/images/screenshot.png) <!-- Add your screenshot path -->
+![Project Screenshot](/public/Screenshot.png) <!-- Add your screenshot path -->
 
 A modern web platform connecting busy Nairobi residents with reliable errand runners. Save time, avoid traffic, and get things done!
 
@@ -35,7 +35,7 @@ A modern web platform connecting busy Nairobi residents with reliable errand run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nairobi-errands-express.git
+   git clone https://github.com/M0imaritim/e-boy.git
    Install dependencies:
    ```
 
@@ -102,9 +102,9 @@ Deploy with Vercel
 Contact 📞
 For inquiries or support:
 
-Email: dev@nairobierrands.co.ke
+Email: moimaritim@gmail.com
 
-WhatsApp: +254 712 345 678
+WhatsApp: +254 717 782 277
 
 License 📜
 This project is licensed under the MIT License - see the LICENSE file for details.

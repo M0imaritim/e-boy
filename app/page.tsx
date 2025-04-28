@@ -301,7 +301,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -443,38 +443,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-emerald-600 dark:bg-emerald-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to save time?
-          </h2>
-          <p className="text-xl opacity-90 mb-8 max-w-3xl mx-auto">
-            Let us handle your errands while you focus on what&#39;s important.
-            Our reliable team is ready to assist.
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <button className="bg-white text-emerald-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-medium text-lg">
-              Book Now
-            </button>
-            <button className="bg-transparent border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg font-medium text-lg">
-              Contact Us
-            </button>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Form Section */}
-      <section id="contact" className="py-16 md:py-24">
+      <section id="contact" className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
+            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl md:mx-auto">
+              Have questions or need a custom quote? Fill out the form and
+              we&#39;ll get back to you shortly.
+            </p>
+          </div>
           <div className="md:flex md:space-x-12">
             <div className="md:w-1/2 mb-8 md:mb-0">
-              <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
-              <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-                Have questions or need a custom quote? Fill out the form and
-                we&#39;ll get back to you shortly.
-              </p>
-              <div className="space-y-4">
+              <div className="space-y-2">
                 <div className="flex items-center">
                   <div className="w-10 h-10 rounded-full bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 mr-3">
                     <svg
