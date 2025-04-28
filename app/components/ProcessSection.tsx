@@ -46,7 +46,7 @@ export default function ProcessSection() {
           {steps.map((step, index) => (
             <ProcessStep
               key={index}
-              number={step.number}
+              number={parseInt(step.number, 10)}
               title={step.title}
               description={step.description}
             />
