@@ -1,83 +1,86 @@
+# Nairobi Errands Express 🚀
+
 ![Project Screenshot](/public/Screenshot.png)
+
+## 📌 Overview
 
 A modern web platform connecting busy Nairobi residents with reliable errand runners. Save time, avoid traffic, and get things done!
 
 [**Live Demo**](https://swiftaf-errands.vercel.app)
 
-Features ✨
-Service Booking: Instant WhatsApp connection for errand requests
+## Features ✨
 
-Interactive Carousel: Smooth animated showcase of services
+- Service Booking: Instant WhatsApp connection for errand requests
 
-Dark/Light Mode: Automatic system preference detection
+- Interactive Carousel: Smooth animated showcase of services
 
-Responsive Design: Works perfectly on all devices
+- Dark/Light Mode: Automatic system preference detection
 
-Quick Contact: One-click access to support
+- Responsive Design: Works perfectly on all devices
 
-Technologies Used 🛠️
-Frontend:
-Next.js 13 (App Router)
+- Quick Contact: One-click access to support
 
-TypeScript
+## Technologies Used 🛠️
 
-Tailwind CSS
+**Frontend:**
 
-Swiper.js (for animated carousel)
+- Next.js 13 (App Router)
 
-Deployment:
-Vercel
+- TypeScript
 
-GitHub Actions (CI/CD)
+- Tailwind CSS
 
-Getting Started 🚀
-Prerequisites
-Node.js v18+
+- Swiper.js (for animated carousel)
 
-npm/yarn
+**Deployment:**
 
-WhatsApp Business account
+- Vercel
 
-Installation
-Clone the repository:
+- GitHub Actions (CI/CD)
 
-bash
-Copy
-Edit
+## Getting Started 🚀
+
+## **Prerequisites**
+
+- Node.js v18+
+
+- npm/yarn
+
+- WhatsApp Business account
+
+**Installation**
+
+### **Clone the repository:**
+
+```sh
 git clone https://github.com/M0imaritim/e-boy.git
-Install dependencies:
+```
 
-bash
-Copy
-Edit
+### **Install dependencies:**
+
+```sh
 npm install
 
 # or
 
 yarn install
-Create .env.local file in the root of the project with the following content:
+```
 
-env
-Copy
-Edit
-NEXT_PUBLIC_WHATSAPP_NUMBER=254712345678
-NEXT_PUBLIC_BUSINESS_NAME="Nairobi Errands Express"
-Run the project locally:
+### **Run the project locally:\***
 
-bash
-Copy
-Edit
+```sh
 npm run dev
 
 # or
 
 yarn dev
+```
+
 Open http://localhost:3000 in your browser.
 
-Project Structure 📁
-ruby
-Copy
-Edit
+## Project Structure 📁
+
+```
 ├── public/ # Static assets
 │ ├── Screenshot.png # Project screenshot
 │ ├── images/ # All visual images
@@ -93,12 +96,14 @@ Edit
 ├── next.config.js # Next.js configuration
 ├── tailwind.config.js # Tailwind CSS configuration
 └── README.md # Project documentation
-Configuration ⚙️
-Customize the colors in tailwind.config.js:
+```
 
-js
-Copy
-Edit
+## **Configuration ⚙️**
+
+### Customize the colors in tailwind.config.js:
+
+```js
+
 theme: {
 extend: {
 colors: {
@@ -109,13 +114,16 @@ dark: '#047857' // Emerald-700
 }
 }
 }
-Deployment 🚀
-Push changes to GitHub:
+```
 
-bash
-Copy
-Edit
+## **Deployment 🚀**
+
+### **Push changes to GitHub:**
+
+```sh
 git push origin main
+```
+
 Connect your Vercel account to the repository and set up deployment.
 
 Set the environment variables in the Vercel dashboard.
