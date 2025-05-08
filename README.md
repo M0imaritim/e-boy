@@ -40,7 +40,7 @@ A modern web platform connecting busy Nairobi residents with reliable errand run
 
 ## Getting Started 🚀
 
-## **Prerequisites**
+**Prerequisites**
 
 - Node.js v18+
 
@@ -48,15 +48,15 @@ A modern web platform connecting busy Nairobi residents with reliable errand run
 
 - WhatsApp Business account
 
-**Installation**
+## **Installation**
 
-### **Clone the repository:**
+**Clone the repository:**
 
 ```sh
 git clone https://github.com/M0imaritim/e-boy.git
 ```
 
-### **Install dependencies:**
+**Install dependencies:**
 
 ```sh
 npm install
@@ -66,7 +66,7 @@ npm install
 yarn install
 ```
 
-### **Run the project locally:\***
+**Run the project locally:\***
 
 ```sh
 npm run dev
@@ -130,14 +130,12 @@ Set the environment variables in the Vercel dashboard.
 
 Deploy with Vercel.
 
-Contact 📞
-For inquiries or support:
+## Contact 📞
 
-Email: moimaritim@gmail.com
+### **For inquiries or support:**
 
-WhatsApp: +254 717 782 277
+**Email:** moimaritim@gmail.com
 
-License 📜
-This project is licensed under the MIT License. See the LICENSE file for details.
+**WhatsApp:** +254 717 782 277
 
 <p align="center"> Made with ❤️ in Nairobi | © 2025 Nairobi Errands Express </p>
