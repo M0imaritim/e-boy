@@ -79,17 +79,20 @@ ruby
 Copy
 Edit
 ├── public/ # Static assets
-│ ├── images/ # All visual assets
-│ └── gifs/ # Animated carousel content
+│ ├── Screenshot.png # Project screenshot
+│ ├── images/ # All visual images
+│ └── gifs/ # Carousel GIFs
 ├── src/
-│ ├── app/ # Next.js 13+ app router
-│ ├── components/ # Reusable components
+│ ├── app/ # Next.js App Router
+│ ├── components/ # Reusable UI components
 │ │ ├── WhatsAppButton.tsx
 │ │ └── AnimatedCarousel.tsx
-│ ├── styles/ # Global styles
-│ └── utils/ # Helper functions
+│ ├── styles/ # Tailwind and global styles
+│ └── utils/ # Utility functions
+├── .env.local # Environment variables
 ├── next.config.js # Next.js configuration
-└── tailwind.config.js # Tailwind configuration
+├── tailwind.config.js # Tailwind CSS configuration
+└── README.md # Project documentation
 Configuration ⚙️
 Customize the colors in tailwind.config.js:
 
