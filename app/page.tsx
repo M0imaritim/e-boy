@@ -6,6 +6,7 @@ import Head from "next/head";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import ServicesSection from "./components/ServicesSection";
+import TestimonialsSection from "./components/TestimonialsSection";
 import ProcessSection from "./components/ProcessSection";
 import PricingSection from "./components/PricingSection";
 import ContactSection from "./components/ContactSection";
@@ -53,6 +54,7 @@ export default function Home() {
         <HeroSection />
         <ServicesSection />
         <ProcessSection />
+        <TestimonialsSection />
         <PricingSection />
         <ContactSection />
         <Footer />

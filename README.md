@@ -1,6 +1,6 @@
 # Nairobi Errands Express 🚀
 
-![Project Screenshot](/public/Screenshot.png)
+![Project Screenshot](https://res.cloudinary.com/dhueetsdf/image/upload/v1747222974/ijhr7c8vvghwsenfmilm.png)
 
 ## 📌 Overview
 

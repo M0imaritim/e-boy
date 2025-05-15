@@ -7,10 +7,10 @@ import "swiper/css";
 
 export default function HeroSection() {
   const gifs = [
-    "/Stress-amico.svg",
-    "/Order ahead-rafiki.svg",
-    "/Delivery-bro.svg",
-    "/Delivery-rafiki.svg",
+    "https://res.cloudinary.com/dhueetsdf/image/upload/v1747222971/d4k3ler5fwsxss8dq6qd.svg",
+    "https://res.cloudinary.com/dhueetsdf/image/upload/v1747222973/dslsx1og2ck3sscggdpa.svg",
+    "https://res.cloudinary.com/dhueetsdf/image/upload/v1747222971/zlbloue7zlnc9veofaj4.svg",
+    "https://res.cloudinary.com/dhueetsdf/image/upload/v1747222973/w2woyrhb6yt3dnethgtx.svg",
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-8 md:mb-0">
             <div className="text-2xl font-bold text-emerald-400 mb-4">
-              SwiftErrands
+              SwiftAF Errands
             </div>
             <p className="text-gray-400 max-w-md">
               Your trusted errand service in Nairobi. We save you time and
