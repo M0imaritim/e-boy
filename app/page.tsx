@@ -42,7 +42,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
         <Head>
-          <title>SwiftErrands Nairobi | Your Personal City Assistant</title>
+          <title>Runsafi Errands Nairobi | Your Personal City Assistant</title>
           <meta
             name="description"
             content="Swift and reliable errand services in Nairobi. We handle grocery shopping, deliveries, bill payments and more so you don't have to."

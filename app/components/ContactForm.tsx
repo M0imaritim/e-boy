@@ -14,7 +14,7 @@ export default function ContactForm() {
     const phone = formData.get("phone");
     const message = formData.get("message");
 
-    const whatsappMessage = `Hello SwiftAF!%0A%0A*Name:* ${firstName} ${lastName}%0A*Email:* ${email}%0A*Phone:* ${phone}%0A%0A*Message:*%0A${message}`;
+    const whatsappMessage = `Hello Runsafi!%0A%0A*Name:* ${firstName} ${lastName}%0A*Email:* ${email}%0A*Phone:* ${phone}%0A%0A*Message:*%0A${message}`;
 
     window.open(`https://wa.me/254717782277?text=${whatsappMessage}`, "_blank");
   };
