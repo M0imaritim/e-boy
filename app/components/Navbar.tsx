@@ -7,7 +7,7 @@ interface NavbarProps {
 }
 
 export default function Navbar({
-  logoSrc = "https://res.cloudinary.com/dhueetsdf/image/upload/v1747224196/Modern_Logo_for_Swift_Errands_Service_lsxrbw.png",
+  logoSrc = "https://res.cloudinary.com/dhueetsdf/image/upload/v1747897791/Professional_Logo_for_Runsafi_Errands_Service_mj8nol.png",
 }: NavbarProps) {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
@@ -22,7 +22,7 @@ export default function Navbar({
           {/* Logo and brand name */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <div className="relative h-10 w-10 sm:h-12 sm:w-12 md:h-14 md:w-14 flex-shrink-0">
+              <div className="relative h-20 w-20 sm:h-12 sm:w-12 md:h-14 md:w-14 flex-shrink-0">
                 <img
                   src={logoSrc}
                   alt="SwiftAF Errands Logo"
@@ -30,7 +30,7 @@ export default function Navbar({
                 />
               </div>
               <div className="text-xl sm:text-2xl md:text-3xl font-bold text-emerald-600 dark:text-emerald-400 ml-2 sm:ml-3 whitespace-nowrap">
-                SwiftAF Errands
+                Runsafi Errands
               </div>
             </Link>
           </div>

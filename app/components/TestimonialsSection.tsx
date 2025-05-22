@@ -16,7 +16,7 @@ const TestimonialsSection: React.FC = () => {
       id: 1,
       name: "Sarah Kimani",
       title: "Busy Professional",
-      text: "SwiftAF Errands has been a lifesaver for me! With my hectic work schedule, I never had time for grocery shopping. Now I just send my list and everything arrives perfectly. Highly recommend!",
+      text: "Runsafi Errands has been a lifesaver for me! With my hectic work schedule, I never had time for grocery shopping. Now I just send my list and everything arrives perfectly. Highly recommend!",
       rating: 5,
       image:
         "https://res.cloudinary.com/dhueetsdf/image/upload/v1747291057/130523634n_-_Edited_cxal2a.png",
@@ -25,7 +25,7 @@ const TestimonialsSection: React.FC = () => {
       id: 2,
       name: "James Ochieng",
       title: "Restaurant Owner",
-      text: "When we run out of ingredients during peak hours, SwiftAF Errands comes through every time. Their emergency delivery service is the most reliable in Nairobi. Couldn't run my business without them!",
+      text: "When we run out of ingredients during peak hours, Runsafi Errands comes through every time. Their emergency delivery service is the most reliable in Nairobi. Couldn't run my business without them!",
       rating: 5,
       image:
         "https://res.cloudinary.com/dhueetsdf/image/upload/v1747291049/istockphoto-1372607241-612x612_vjyipg.jpg",
@@ -34,7 +34,7 @@ const TestimonialsSection: React.FC = () => {
       id: 3,
       name: "Mercy Wanjiku",
       title: "Air hostess - Qatar Airways",
-      text: "I had been sent a package from shagz I needed to travel with but couldn’t leave the airport during my layover. SwiftAF picked everything up from town, packaged it to meet airline weight limits, and delivered it to me at JKIA—ready to check in! Their attention to detail saved me from excess baggage fees and last-minute stress. Truly a seamless service!",
+      text: "I had been sent a package from shagz I needed to travel with but couldn’t leave the airport during my layover. Runsafi picked everything up from town, packaged it to meet airline weight limits, and delivered it to me at JKIA—ready to check in! Their attention to detail saved me from excess baggage fees and last-minute stress. Truly a seamless service!",
       rating: 5,
       image:
         "https://res.cloudinary.com/dhueetsdf/image/upload/v1747291054/Qatar_-_Edited_atsngr.png",
@@ -43,7 +43,7 @@ const TestimonialsSection: React.FC = () => {
       id: 4,
       name: "David Chinedu",
       title: "Expatriate",
-      text: "New to Nairobi, I struggled with knowing where to find things. SwiftAF Errands not only runs errands for me but also helps me navigate the city. Their knowledge of local markets has saved me so much money!",
+      text: "New to Nairobi, I struggled with knowing where to find things. Runsafi Errands not only runs errands for me but also helps me navigate the city. Their knowledge of local markets has saved me so much money!",
       rating: 4,
       image:
         "https://res.cloudinary.com/dhueetsdf/image/upload/v1747291089/1b9ed738-2719-402e-a34a-c0c8e8151914.jpg_d4dbwm.png",
@@ -88,7 +88,7 @@ const TestimonialsSection: React.FC = () => {
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Don&#39;t just take our word for it - hear from some of our
-            satisfied customers about their experience with SwiftAF Errands.
+            satisfied customers about their experience with Runsafi Errands.
           </p>
         </div>
 
