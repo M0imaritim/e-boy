@@ -2,7 +2,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Head from "next/head";
+
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import ServicesSection from "./components/ServicesSection";
@@ -41,42 +41,6 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
-        <Head>
-          <title>Runsafi Errands Nairobi | Your Personal City Assistant</title>
-          <meta
-            name="description"
-            content="Swift and reliable errand services in Nairobi. We handle grocery shopping, deliveries, bill payments and more so you don't have to. Professional, trusted, and efficient."
-          />
-          <meta
-            name="keywords"
-            content="errand services nairobi, grocery shopping nairobi, delivery services kenya, personal assistant nairobi, runsafi errands"
-          />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
-
-          {/* Open Graph Meta Tags */}
-          <meta
-            property="og:title"
-            content="Runsafi Errands Nairobi | Your Personal City Assistant"
-          />
-          <meta
-            property="og:description"
-            content="Swift and reliable errand services in Nairobi. We handle grocery shopping, deliveries, bill payments and more."
-          />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://runsafi.co.ke" />
-          <meta property="og:image" content="/og-image.jpg" />
-
-          {/* Twitter Card Meta Tags */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Runsafi Errands Nairobi" />
-          <meta
-            name="twitter:description"
-            content="Swift and reliable errand services in Nairobi"
-          />
-          <meta name="twitter:image" content="/twitter-image.jpg" />
-        </Head>
-
         {/* Skip to main content for accessibility */}
         <a
           href="#main-content"
