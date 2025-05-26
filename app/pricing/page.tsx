@@ -1,9 +1,9 @@
 // app/components/PricingSection.tsx
 import React from "react";
-import PricingCard from "./PricingCard";
+import PricingCard from "./components/PricingCard";
 import { FaDollarSign, FaQuestionCircle } from "react-icons/fa";
 
-export default function PricingSection() {
+export default function PricingPage() {
   const pricingPlans = [
     {
       name: "Standard Errands",

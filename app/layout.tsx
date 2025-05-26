@@ -1,7 +1,9 @@
 // app/layout.tsx
+import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import ClientWrapper from "./components/ClientWrapper";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -43,7 +45,7 @@ export const metadata: Metadata = {
       {
         url: "/og-image.png",
         width: 1200,
-        height: 630,
+        height: 400,
         alt: "Runsafi Errands - Your Personal City Assistant in Nairobi",
       },
     ],
@@ -78,12 +80,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
+
   verification: {},
+};
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({
@@ -94,7 +97,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {children}
+        <ClientWrapper>{children}</ClientWrapper>
         <Analytics />
       </body>
     </html>

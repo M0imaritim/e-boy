@@ -1,8 +1,8 @@
 // ProcessSection.tsx
 import React from "react";
-import { ProcessStep } from "./ProcessStep";
+import { ProcessStep } from "./components/ProcessStep";
 import { ArrowRight } from "lucide-react";
-export default function ProcessSection() {
+export default function ProcessPage() {
   const steps = [
     {
       number: 1,

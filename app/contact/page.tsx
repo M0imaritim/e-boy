@@ -1,9 +1,9 @@
 // app/components/ContactSection.tsx
 import React from "react";
 import { FaWhatsapp, FaMapMarkerAlt, FaClock, FaHeadset } from "react-icons/fa";
-import ContactForm from "./ContactForm";
+import ContactForm from "./components/ContactForm";
 
-export default function ContactSection() {
+export default function ContactPage() {
   return (
     <section
       id="contact"

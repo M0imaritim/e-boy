@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
@@ -44,35 +45,29 @@ export default function Navbar({
           {/* Desktop navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <a
-              href="#services"
+              href="/services"
               className="text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 font-medium transition-colors duration-200 relative group"
             >
               Services
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-emerald-600 transition-all group-hover:w-full"></span>
             </a>
             <a
-              href="#process"
+              href="/process"
               className="text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 font-medium transition-colors duration-200 relative group"
             >
               How It Works
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-emerald-600 transition-all group-hover:w-full"></span>
             </a>
+
             <a
-              href="#testimonials"
-              className="text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 font-medium transition-colors duration-200 relative group"
-            >
-              Testimonials
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-emerald-600 transition-all group-hover:w-full"></span>
-            </a>
-            <a
-              href="#pricing"
+              href="/pricing"
               className="text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 font-medium transition-colors duration-200 relative group"
             >
               Pricing
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-emerald-600 transition-all group-hover:w-full"></span>
             </a>
             <a
-              href="#contact"
+              href="/contact"
               className="text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 font-medium transition-colors duration-200 relative group"
             >
               Contact
@@ -115,35 +110,29 @@ export default function Navbar({
       >
         <div className="px-4 pt-2 pb-4 space-y-2 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
           <a
-            href="#services"
+            href="/services"
             className="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             Services
           </a>
           <a
-            href="#process"
+            href="/process"
             className="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             How It Works
           </a>
+
           <a
-            href="#testimonials"
-            className="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Testimonials
-          </a>
-          <a
-            href="#pricing"
+            href="/pricing"
             className="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             Pricing
           </a>
           <a
-            href="#contact"
+            href="/contact"
             className="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >

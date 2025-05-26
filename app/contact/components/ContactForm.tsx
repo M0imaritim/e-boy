@@ -1,4 +1,4 @@
-// app/components/ContactForm.tsx
+"use client";
 import React, { useState } from "react";
 import { FaWhatsapp, FaSpinner } from "react-icons/fa";
 

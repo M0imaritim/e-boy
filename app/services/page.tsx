@@ -1,4 +1,3 @@
-// app/components/ServicesSection.tsx
 import React from "react";
 import {
   FaShoppingBasket,
@@ -8,9 +7,33 @@ import {
   FaCogs,
 } from "react-icons/fa";
 import { MdDeliveryDining } from "react-icons/md";
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "./components/ServiceCard";
 
-export default function ServicesSection() {
+export const metadata = {
+  title: "Professional Errand Services in Nairobi | Runsafi",
+  description:
+    "Discover a range of errand services in Nairobi including grocery shopping, deliveries, bill payments, and corporate errands. Runsafi is your reliable partner.",
+  keywords: [
+    "errand services Nairobi",
+    "grocery delivery Nairobi",
+    "bill payments Kenya",
+    "queue services Nairobi",
+    "package delivery",
+    "Runsafi errands",
+    "custom errands Nairobi",
+  ],
+  openGraph: {
+    title: "Professional Errand Services in Nairobi | Runsafi",
+    description:
+      "Reliable and professional errand services across Nairobi, from groceries to corporate deliveries.",
+    url: "https://runsafi.com/services",
+    type: "website",
+    locale: "en_KE",
+    siteName: "Runsafi",
+  },
+};
+
+export default function ServicesPage() {
   // Service items data
   const services = [
     {
@@ -75,13 +98,14 @@ export default function ServicesSection() {
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {services.map((service, index) => (
-            <ServiceCard
-              key={index}
-              icon={service.icon}
-              title={service.title}
-              description={service.description}
-            />
+          {services.map((service) => (
+            <article key={service.title}>
+              <ServiceCard
+                icon={service.icon}
+                title={service.title}
+                description={service.description}
+              />
+            </article>
           ))}
         </div>
 
