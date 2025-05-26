@@ -17,7 +17,7 @@ export default function HeroSection() {
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
-  const router = useRouter(); // ✅ Make sure this is declared
+  const router = useRouter();
 
   return (
     <div className="relative overflow-hidden">
@@ -47,7 +47,7 @@ export default function HeroSection() {
                   <span className="block">in Nairobi</span>
                 </h1>
                 <p className="text-lg md:text-xl text-white/90 leading-relaxed max-w-2xl">
-                  We run your errands so you don't have to. Save time, avoid
+                  We run your errands so you don&#39;t have to. Save time, avoid
                   traffic, and focus on what matters most while we handle the
                   rest.
                 </p>
