@@ -140,7 +140,7 @@ export default function ProcessPage() {
               </a>
 
               <a
-                href="#pricing"
+                href="/pricing"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 rounded-xl font-semibold text-lg transition-all duration-200"
               >
                 View Pricing Plans
