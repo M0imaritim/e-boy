@@ -182,7 +182,7 @@ export default function Home() {
       {/* Floating WhatsApp Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <a
-          href="https://wa.me/254700000000?text=Hello%20Runsafi%20Errands,%20I%20need%20help%20with%20an%20errand!"
+          href="https://wa.me/254717782277?text=Hello%20Runsafi%20Errands,%20I%20need%20help%20with%20an%20errand!"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 flex items-center justify-center"
